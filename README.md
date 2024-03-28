@@ -1,71 +1,52 @@
-## Simple NodeJS Calculator App
+# Simple Calculator
 
-This repository contains a simple calculator application built using Node.js.
+This is a simple calculator created using JavaScript. The calculator can perform basic mathematical operations such as addition, subtraction, multiplication, and division. Additionally, it also includes additional features to calculate the square and square root of a number.
 
-### Features
+## Features
 
 - Addition
 - Subtraction
 - Multiplication
 - Division
+- Square Calculation
+- Square Root Calculation
 
-### Setup
+## How to Use
 
-1. **Clone the repository:**
+1. Make sure you have Node.js installed on your computer.
+2. Copy the calculator code from `calculator.js`.
+3. Run the code using the command `node calculator.js`.
+4. Follow the on-screen instructions to input numbers and desired mathematical operations.
 
-   ```
-   git clone https://github.com/jacktampan/altampan-calculator.git
-   ```
+## Example Usage
 
-2. **Navigate to the project directory:**
+### Addition
 
-   ```
-   cd altampan-calculator
-   ```
+```
+Enter the first number: 10
+Enter the second number: 5
+Choose operation (+, -, *, /, ^, sqrt): +
+Result: 15
+```
 
-3. **Install dependencies:**
+### Multiplication
 
-   ```
-   npm install readline-sync
-   ```
+```
+Enter the first number: 7
+Enter the second number: 8
+Choose operation (+, -, *, /, ^, sqrt): *
+Result: 56
+```
 
-### Usage
+### Square Root Calculation
 
-1. **Run the application:**
+```
+Enter the number: 25
+Choose operation (+, -, *, /, ^, sqrt): sqrt
+Result: 5
+```
 
-   ```
-   node calculator.js
-   ```
+## Notes
 
-2. **Follow the instructions in the terminal:**
-
-   - Enter the first number.
-   - Choose the operation (+, -, *, /).
-   - Enter the second number.
-
-3. **The result will be displayed in the terminal.**
-
-### Example
-
-- Input:
-  - First number: 10
-  - Operation: Addition
-  - Second number: 5
-- Output:
-  - Result: 15
-
-### Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or want to suggest improvements.
-
-### License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-### Acknowledgments
-
-This project was inspired by the need for a simple calculator application and was developed as a learning exercise with Node.js.
-
-### Contact
-
-For any inquiries or support, feel free to contact me.
+- Make sure to input valid numbers and supported operations.
+- The calculator will not be able to process invalid mathematical operations, such as division by zero or taking the square root of a negative number.
